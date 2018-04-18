@@ -1,5 +1,7 @@
+# Quick Evaluation Report
+
 # Rendering massive cells
-* only render a limit number  of cells according to visible ranges (columns x rows)
+* only render a limit number of cells according to visible ranges (columns x rows)
 check $('.k-spreadsheet-cell').size()
 * can render more than 10 million cells (10c x 1,000,000r)
 * scrolling down to 1000000 row is smooth and doesn't have blank page
